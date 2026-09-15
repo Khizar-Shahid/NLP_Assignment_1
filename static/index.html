@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PulsePoint Fitness — Coach</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <div class="brand">
+        <span class="mark" aria-hidden="true"></span>
+        <div class="brand-text">
+          <span class="brand-name">PulsePoint Fitness</span>
+          <span class="brand-sub">Coach · membership &amp; class help</span>
+        </div>
+      </div>
+      <div class="topbar-right">
+        <span id="status" class="status" title="Connection status">
+          <span class="dot"></span><span id="status-text">connecting</span>
+        </span>
+        <button id="reset" class="reset" type="button">New chat</button>
+      </div>
+    </header>
+
+    <main id="messages" class="messages" aria-live="polite"></main>
+
+    <footer class="composer">
+      <textarea
+        id="input"
+        class="input"
+        rows="1"
+        placeholder="Ask about plans, classes, or freezing your membership…"
+        autocomplete="off"></textarea>
+      <button id="send" class="send" type="button" aria-label="Send message">Send</button>
+    </footer>
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
