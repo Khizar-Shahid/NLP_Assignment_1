@@ -8,8 +8,9 @@ concurrently**, and ships with a **ChatGPT-style web UI**.
 > **No tools, no agents, no RAG.** Every response comes from prompt
 > orchestration and conversational memory alone, as the assignment requires.
 
-**Group members:** _<Name 1 — Student ID>_, _<Name 2 — Student ID>_
-(replace before submitting; delete the second line if working individually)
+**Group members:**
+- **Name:** Muhammad Khizar (Roll No: 22i-2595)
+- **Name:** Abdul Haseeb
 
 ---
 
